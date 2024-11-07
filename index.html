@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="author" content="Goran Gajšek" />
+		<link rel="icon" href="./icons/gymFavi.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="style.css" />
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,7 +12,7 @@
 			href="https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap"
 			rel="stylesheet"
 		/>
-		<title>Document</title>
+		<title>Goran's Gym</title>
 	</head>
 	<body>
 		<header>
@@ -31,14 +32,16 @@
 						<li><a href="#contacts">Contacts</a></li>
 					</ul>
 				</nav>
-				<button class="hamburger">
-					<div class="bar"></div>
-				</button>
+				<div class="navigation-mobile">
+					<a href="#top"><img src="image/gym.svg" alt="" /></a>
+					<button class="hamburger">
+						<div class="bar"></div>
+					</button>
+				</div>
 			</div>
 			<nav class="mobile-nav">
 				<ul>
-					<li class="test">Goran's Gym</li>
-
+					<li class="mobile-title">Goran's Gym</li>
 					<li><a href="#top" class="mobile-nav-link">Home</a></li>
 					<li><a href="#about" class="mobile-nav-link">About us</a></li>
 					<li><a href="#pricing" class="mobile-nav-link">Pricing</a></li>
@@ -53,12 +56,14 @@
 				<div class="landing-page">
 					<div class="landing-site">
 						<h2 class="landing-title">Welcome to Goran's Gym</h2>
-						<p class="landing-text">
-							At Goran's Gym, we believe that fitness is more than just a
-							routine—it's a lifestyle. Our state-of-the-art facilities, expert
-							trainers, and supportive community are here to help you achieve
-							your fitness goals, no matter your level or experience.
-						</p>
+						<div class="landing-text">
+							<p class="landing-paragraph">
+								At Goran's Gym, we believe that fitness is more than just a
+								routine—it's a lifestyle. Our state-of-the-art facilities,
+								expert trainers, and supportive community are here to help you
+								achieve your fitness goals, no matter your level or experience.
+							</p>
+						</div>
 					</div>
 					<div class="landing-image">
 						<img src="image/homeGym.jpeg" alt="Gym" class="home-gym" />

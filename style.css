@@ -36,6 +36,15 @@ header {
 	justify-content: space-between;
 }
 
+.navigation-mobile a {
+	width: 35px;
+	height: auto;
+}
+
+.navigation-mobile a img {
+	width: 100%;
+}
+
 main {
 	display: flex;
 	flex-direction: column;
@@ -578,6 +587,7 @@ header .mobile-nav a {
 
 	.pricing-boxes:hover {
 		scale: 1.1;
+		transition: 0.5s;
 	}
 
 	.pricing-boxes {
